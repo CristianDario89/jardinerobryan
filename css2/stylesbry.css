@@ -36,11 +36,15 @@
 .expander img{
   width: 100%;height: 200px;
 }
+.chikito{
+    font-size: 14px;
+}
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-  
-       margin-top: 10px;margin-left: 20px;  
+   line-height: 38px;
+     margin-left: 20px;  
+       transform: translateY(11px);
 } 
     .ul2 li{
    background: red;border-radius: 5px;
@@ -54,5 +58,10 @@
     .ul1 li
     {   border-bottom: 1px dotted red;     
 }
- 
+    .social-media{
+        margin-top: 20px;
+    }
+    .social-media span{
+        color: chartreuse
+    }
 }
