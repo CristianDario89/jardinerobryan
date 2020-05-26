@@ -42,16 +42,17 @@
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-   line-height: 38px;
+   line-height: 28px;
      margin-left: 20px;  
        transform: translateY(11px);
+        
 } 
     .ul2 li{
    background: red;border-radius: 5px;
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 38px;
+  line-height: 28px;
     
    
 }
