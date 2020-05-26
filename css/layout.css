@@ -88,15 +88,14 @@ Home (Header) Section
 .text-slides li:last-child{clear: both;}
 
 .social-media h4{
-	color:#ffffff; 
-    background-color: black;
-	 font-size: 30px;
-    
-	display: inline-block;
+	color:black;text-shadow: 2px 2px 1px green;
+    font-weight: 700;
+   
+   
+	 font-size: 41px;
     padding: 3px;
 	margin-bottom:  3px;
-    border-radius: 5px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 .header ul.social-links li {display: inline;}
 .header ul.social-links li a {

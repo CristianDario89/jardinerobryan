@@ -61,8 +61,14 @@
 }
     .social-media{
         margin-top: 20px;
+         
     }
     .social-media span{
-        color: chartreuse
+        color: whitesmoke;
+       text-shadow: 1px 1px 1px red;
+         background-color: black;
+        padding: 5px;
+        border-radius: 5px;
     }
+   
 }
