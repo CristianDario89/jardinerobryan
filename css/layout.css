@@ -54,7 +54,7 @@ Home (Header) Section
 .home:after {clear: both;}
 .header{
   text-align: center;
-   
+  transform: translateY(-50px)
 }
 .header .logo{
 	color:chartreuse;
