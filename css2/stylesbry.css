@@ -5,13 +5,13 @@
     color: black; font-weight: 700;
     font-family: cursive; 
     letter-spacing: 2px;
-    font-size: 29px;
+    font-size: 22px;
     
     text-shadow: 2px 2px 2px green;
     line-height: 35px;
 }
 .ul2{
-  transform: scale(1.2);  
+ 
     margin-left: 20px;
    
     
@@ -19,8 +19,8 @@
         padding:1px;
 } 
 .ul1{
-  line-height: 42px;
-    transform: translateY(-40px);
+   
+    
 }
 .ul1 li{
    color: wheat;
@@ -39,7 +39,7 @@
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-  transform: scale(1.2); 
+  
        margin-top: 10px;margin-left: 20px;  
 } 
     .ul2 li{
@@ -47,8 +47,8 @@
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 46px;
-    transform: translateY(-36px);
+  line-height: 38px;
+    
    
 }
     .ul1 li
