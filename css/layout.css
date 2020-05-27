@@ -1,3 +1,17 @@
+
+@keyframes fondo{
+    10%{
+     font-size: 10px;
+    }
+30%{
+       font-size: 20px;
+    }
+70%{
+       font-size: 30px;
+    }
+
+}
+
 /* --------------------------------
 Base Layout
 -------------------------------- */
@@ -65,6 +79,7 @@ Home (Header) Section
 	text-transform: uppercase;
 	display: block;
 	margin-bottom: 11px;
+    animation: fondo 3s;
 }
 .header-text{
 	background: rgba(0, 0, 0, .4);
@@ -101,14 +116,16 @@ Home (Header) Section
 .header ul.social-links li a {
 	display: inline-block;
 	padding: 4px 0 0 1px;
-	width: 32px;
-	height: 32px;
+	width: 28px;
+	height: 28px;
 	margin: 0 4px;
 	background: rgba(0, 0, 0, .5);
 	color: #fff;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+    
+    transform: translate(17px,-7px);
 }
 .header ul.social-links li a:hover {
 	background: rgba(0, 0, 0, .7);
@@ -610,8 +627,7 @@ Portfolio Section
 }
 .item .mask{ 
 	position:absolute;
-	background:rgba(0,0,0,.8) 
-	url('../images/plus.png') no-repeat center center;
+	background:rgba(0,0,0,.8);
 	display:block;
 	top:0;
 	left:0;

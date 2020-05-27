@@ -1,3 +1,59 @@
+
+@keyframes fondo2{
+    0%{
+       opacity: 0;
+            
+    }
+30%{
+       opacity: 0.1;
+    } 
+70%{
+      opacity: 0.7;
+    }
+
+}
+
+
+@keyframes fondo3{
+    10%{
+      color: black;  
+        text-shadow: 2px 2px 2px red,
+            -2px -2px 2px red;
+            
+    }
+30%{
+        color:chartreuse; 
+      text-shadow: 2px 2px 2px black,
+            -2px -2px 2px black;
+    }
+50%{
+        color:black; 
+      text-shadow: 2px 2px 2px red,
+            -2px -2px 2px red;
+    }
+    60%{
+      color: chartreuse;  
+          text-shadow: 2px 2px 2px black,
+            -2px -2px 2px black;
+    }
+     70%{
+      color: black;  
+          text-shadow: 2px 2px 2px red,
+            -2px -2px 2px red;
+    }
+85%{
+        color:chartreuse; 
+      text-shadow: 2px 2px 2px black,
+            -2px -2px 2px black;
+    }
+70%{
+        color:black; 
+     text-shadow: 2px 2px 2px red,
+            -2px -2px 2px red;
+    }
+
+}
+
 .flexito{
     display:flex;justify-content: center;
     text-align: start;
@@ -19,13 +75,14 @@
    color: wheat;
      text-shadow: -2px -2px 2px red,
         2px 2px 2px red ;   
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    animation: fondo2 7s;
 }
 .ul2 li{
    background: red;border-radius: 5px;
         margin-bottom: 2px;
     transform: translateY(-10px);
-     letter-spacing: 5px;
+     letter-spacing: 3px;
 } 
 
 .expander img{
@@ -46,8 +103,17 @@
 
 .header h6{
     text-shadow: 1px 1px 1px red;
-    font-weight: 700;
-    line-height: 1px;
+    font-weight: 700; animation: fondo3 7s 11s;
+    
+}
+.wraparriba{
+    display: flex;
+    justify-content: center;
+     transform: translateY(-25px);
+    
+}
+.social-media h4{
+	 animation: fondo3 7s 4s;
 }
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
@@ -78,4 +144,10 @@
         font-size: 15px;
     }
    
+.wraparriba{
+    display: flex;
+    justify-content: center;
+     transform: translateY(-1px);
+    
+}
 }
