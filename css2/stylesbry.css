@@ -11,26 +11,21 @@
     line-height: 35px;
 }
 .ul2{
- 
-    margin-left: 20px;
-   
-    
-        
+   margin-left: 20px;
+       
         padding:1px;
-} 
-.ul1{
-   
-    
-}
+}  
 .ul1 li{
    color: wheat;
      text-shadow: -2px -2px 2px red,
         2px 2px 2px red ;   
+    letter-spacing: 5px;
 }
 .ul2 li{
    background: red;border-radius: 5px;
         margin-bottom: 2px;
     transform: translateY(-10px);
+     letter-spacing: 5px;
 } 
 
 .expander img{
@@ -39,10 +34,25 @@
 .chikito{
     font-size: 14px;
 }
+
+    .textwsp{
+        color: chartreuse;
+       text-shadow: 1px 1px 1px red;
+         background-color: black;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+.header h6{
+    text-shadow: 1px 1px 1px red;
+    font-weight: 700;
+    line-height: 1px;
+}
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-   line-height: 28px;
+   line-height: 23px;
      margin-left: 20px;  
        transform: translateY(11px);
         
@@ -52,7 +62,7 @@
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 28px;
+  line-height: 23px;
     
    
 }
@@ -60,15 +70,12 @@
     {   border-bottom: 1px dotted red;     
 }
     .social-media{
-        margin-top: 20px;
+        margin-top: 5px;
          
     }
-    .social-media span{
-        color: whitesmoke;
-       text-shadow: 1px 1px 1px red;
-         background-color: black;
-        padding: 5px;
-        border-radius: 5px;
+    .textwsp{
+     
+        font-size: 15px;
     }
    
 }
