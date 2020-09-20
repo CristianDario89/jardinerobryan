@@ -73,15 +73,16 @@
 }  
 .ul1 li{
    color: wheat;
-     text-shadow: -2px -2px 2px red,
-        2px 2px 2px red ;   
+     text-shadow: -2px -2px 2px green,
+        2px 2px 2px green ;   
     letter-spacing: 4px;
     animation: fondo2 7s;
 }
-.ul2 li{
-   background: red;border-radius: 5px;
+.ul2 li{color: chartreuse;     text-shadow: -2px -2px 2px red,
+        2px 2px 2px red ;  
+ border-radius: 5px;
         margin-bottom: 2px;
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.2);
      letter-spacing: 3px;
 } 
 
@@ -93,9 +94,8 @@
 }
 
     .textwsp{
-        color: chartreuse;
-       text-shadow: 1px 1px 1px red;
-         background-color: black;
+        color: chartreuse; 
+         background-color: darkred;
         padding: 5px;
         border-radius: 5px;
         font-size: 15px;
@@ -118,17 +118,17 @@
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-   line-height: 23px;
+   line-height: 33px;
      margin-left: 20px;  
        transform: translateY(11px);
         
 } 
     .ul2 li{
-   background: red;border-radius: 5px;
+    border-radius: 5px;
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 23px;
+  line-height: 35px;
     
    
 }
