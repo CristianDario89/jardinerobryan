@@ -124,7 +124,7 @@
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-   line-height: 38px;
+   line-height: 37px;
      margin-left: 20px;  
        transform: translateY(11px);
         
@@ -134,7 +134,7 @@
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 36px;
+  line-height: 35px;
     
    
 }
