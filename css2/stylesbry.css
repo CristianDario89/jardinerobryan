@@ -73,11 +73,12 @@
         padding:1px;
 }  
 .ul1 li{
-   color: black;
-     text-shadow: -2px -2px 2px green,
-        2px 2px 2px green ;   
-    letter-spacing: 4px;
+   color: chartreuse;font-size: 30px;
+     text-shadow: -2px -2px 2px black,
+        2px 2px 2px black ;   
+    letter-spacing: 2px;
     animation: fondo2 7s;
+    
 }
 .ul2 li{color: black;     text-shadow: -2px -2px 2px orange,
         2px 2px 2px orange ;  
@@ -85,6 +86,7 @@
         margin-bottom: 2px;
     transform: translateY(-10px) scale(1.2);
      letter-spacing: 2px;
+    font-size: 30px;
 } 
 
 .expander img{
@@ -114,14 +116,15 @@
     
 }
  h4{
-     font-size:40px;font-family: cursive;
+     font-size:50px;font-family: cursive;
 	 animation: fondo3 7s 4s;
       text-shadow: 2px 2px 1px black;
+     margin-top: 8px;
 }
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-   line-height: 31px;
+   line-height: 38px;
      margin-left: 20px;  
        transform: translateY(11px);
         
@@ -131,7 +134,7 @@
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 33px;
+  line-height: 36px;
     
    
 }
