@@ -53,13 +53,14 @@
     }
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap');
 
 .flexito{
     display:flex;justify-content: center;
     text-align: start;
     flex-direction: row;
-    color: black; font-weight: 700;
-    font-family: cursive; 
+    color: black; font-weight: 600;
+      
     letter-spacing: 2px;
     font-size: 22px;
     
@@ -72,18 +73,18 @@
         padding:1px;
 }  
 .ul1 li{
-   color: wheat;
+   color: black;
      text-shadow: -2px -2px 2px green,
         2px 2px 2px green ;   
     letter-spacing: 4px;
     animation: fondo2 7s;
 }
-.ul2 li{color: chartreuse;     text-shadow: -2px -2px 2px red,
-        2px 2px 2px red ;  
+.ul2 li{color: black;     text-shadow: -2px -2px 2px orange,
+        2px 2px 2px orange ;  
  border-radius: 5px;
         margin-bottom: 2px;
     transform: translateY(-10px) scale(1.2);
-     letter-spacing: 3px;
+     letter-spacing: 2px;
 } 
 
 .expander img{
@@ -112,13 +113,15 @@
      transform: translateY(-25px);
     
 }
-.social-media h4{
+ h4{
+     font-size:40px;font-family: cursive;
 	 animation: fondo3 7s 4s;
+      text-shadow: 2px 2px 1px black;
 }
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
    .ul2{
-   line-height: 33px;
+   line-height: 31px;
      margin-left: 20px;  
        transform: translateY(11px);
         
@@ -128,7 +131,7 @@
         margin-bottom: 2px;padding:1px;
 } 
 .ul1{
-  line-height: 35px;
+  line-height: 33px;
     
    
 }
