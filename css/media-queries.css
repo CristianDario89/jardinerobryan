@@ -68,11 +68,7 @@
 		font-size: 32px;padding: 0 4px; 
         transform: scaleY(1.5) scaleX(1.1);
 		line-height: 45px;
-        color: black;
-        text-shadow: 1px 1px 11px white,
-            -1px -1px 11px white;
-        
-        font-family: Montserrat;
+     
 	}	
 	.text-slides{
 		font-size: 24px;
