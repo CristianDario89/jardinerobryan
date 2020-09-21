@@ -73,9 +73,9 @@
         padding:1px;
 }  
 .ul1 li{
-   color: chartreuse;font-size: 30px;
-     text-shadow: -2px -2px 2px black,
-        2px 2px 2px black ;   
+   color: black;font-size: 30px;
+     text-shadow: -2px -2px 2px chartreuse,
+        2px 2px 2px chartreuse ;   
     letter-spacing: 2px;
     animation: fondo2 7s;
     
@@ -104,11 +104,9 @@
         font-size: 15px;
     }
 
-.header h6{
-    text-shadow: 1px 1px 1px red;
-    font-weight: 700; animation: fondo3 7s 11s;
-    
-}
+.header h6{ font-weight: 700; animation: fondo3 7s 11s;
+letter-spacing: 1.1px;}
+
 .wraparriba{
     display: flex;
     justify-content: center;
@@ -116,10 +114,11 @@
     
 }
  h4{
-     font-size:50px;font-family: cursive;
+     font-size:40px;font-family: cursive;
 	 animation: fondo3 7s 4s;
-      text-shadow: 2px 2px 1px black;
-     margin-top: 8px;
+      text-shadow: 2px 2px 1px black,
+          -2px -2px 1px black; 
+     margin-top: 5px;
 }
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
@@ -153,7 +152,7 @@
 .wraparriba{
     display: flex;
     justify-content: center;
-     transform: translateY(-1px);
+     transform: translateY( -1px);
     
 }
 }
