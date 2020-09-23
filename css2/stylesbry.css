@@ -56,7 +56,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap');
 
 .flexito{
-   
     display:flex;justify-content: center;
     text-align: start;
     flex-direction: row;
@@ -67,6 +66,11 @@
     
     text-shadow: 2px 2px 2px green;
     line-height: 35px;
+}
+.ul2{
+   margin-left: 20px;
+       
+        padding:1px;
 }  
 .ul1 li{
    color: black;font-size: 30px;
@@ -76,12 +80,12 @@
     animation: fondo2 7s;
     
 }
-.ul2 li{color: black;     text-shadow: -2px -2px 2px orange,
-        2px 2px 2px orange ;  
+.ul2 li{color: red;     text-shadow: -2px -2px 2px black,
+        2px 2px 2px black ;  
  border-radius: 5px;
-        margin-bottom: 6px;
-    transform: scale(1.2);
-     letter-spacing:1.1px;
+        margin-bottom:6px;
+    transform:   scale(1.2);
+     letter-spacing: 2px;
     font-size: 30px;
 } 
 
@@ -109,12 +113,12 @@ letter-spacing: 1.1px;}
      transform: translateY(-12px);
     
 }
-.h4numero{
-     font-size:60px;font-family: cursive;
+ h4{
+     font-size:80px;font-family: cursive;
 	 animation: fondo3 7s 4s;
       text-shadow: 2px 2px 1px black,
           -2px -2px 1px black; 
-     margin-top: 15px; color: red;
+     margin-top: 15px;
 }
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
@@ -128,6 +132,10 @@ letter-spacing: 1.1px;}
     border-radius: 5px;
         margin-bottom: 2px;padding:1px;
 } 
+    h4{
+     font-size:50px; margin-top: 20px;
+	 
+}
 .ul1{
   line-height: 36px;
     
@@ -148,7 +156,7 @@ letter-spacing: 1.1px;}
 .wraparriba{
     display: flex;
     justify-content: center;
-     transform: translateY(  5px);
+     transform: translateY( 3px);
     
 }
 }
