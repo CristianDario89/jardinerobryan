@@ -83,8 +83,7 @@ Home (Header) Section
        color: black;
         text-shadow: 1px 1px 11px white,
             -1px -1px 11px white;
-        
-        font-family: Montserrat;
+        font-family: cursive; 
 }
 .header-text{
 	background: rgba(0, 0, 0, .4);
