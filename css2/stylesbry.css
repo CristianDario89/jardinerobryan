@@ -1,25 +1,13 @@
 
 @keyframes fondo2{
-    0%{
-       opacity: 0;
-            
-    }
-30%{
-       opacity: 0.1;
-    } 
-70%{
-      opacity: 0.7;
-    }
-
-}
-
-
+    0%{opacity: 0;}
+30%{    opacity: 0.1; } 
+70%{   opacity: 0.7; }}
 @keyframes fondo3{
     10%{
       color: black;  
         text-shadow: 2px 2px 2px red,
             -2px -2px 2px red;
-            
     }
 30%{
         color:chartreuse; 
@@ -53,6 +41,49 @@
     }
 
 }
+
+
+.wrapofertas{
+    position: relative;top: 30px;right:30px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+    
+    background-color: black; 
+      border: 3px solid #9fc;   box-shadow: 0 0 20px #4f9;
+}
+.frase{
+    color: whitesmoke;
+    font-family: cursive;
+}
+.precio{
+    color: orange;
+   font-size: 40px;font-family: sans-serif;font-weight: 600;
+    
+}
+        /*------------------------*/
+.wrapofertas2{
+    position: relative;top: 30px;right: -10px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 50%;
+      border: 3px solid #9fc;   box-shadow: 0 0 20px #4f9;
+    background-color: black;
+}
+.frase2{
+    color: whitesmoke;
+    font-family: cursive;
+}
+.precio2{
+    color: orange;
+   font-size: 40px;font-family: sans-serif;font-weight: 600;
+ transform: scale(1.2);
+}
+.escondeofertas{
+    display: none;
+}
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap');
 
 .flexito{
@@ -74,8 +105,8 @@
 }  
 .ul1 li{
    color: black;font-size: 30px;
-     text-shadow: -2px -2px 2px chartreuse,
-        2px 2px 2px chartreuse ;   
+     text-shadow: -2px -2px 2px green,
+        2px 2px 2px green ;   
     letter-spacing: 2px;
     animation: fondo2 7s;
     
@@ -158,5 +189,9 @@ letter-spacing: 1.1px;}
     justify-content: center;
      transform: translateY( 3px);
     
+}
+  
+.escondeofertas{
+    display: none;
 }
 }

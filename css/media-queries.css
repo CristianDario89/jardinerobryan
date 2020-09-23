@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Kurale&family=Lato:ital,wght@0,100;1,100;1,300&family=Martel:wght@200;600&family=Montserrat:ital,wght@0,600;0,800;0,900;1,400&family=PT+Serif:ital@0;1&family=Quicksand:wght@300;500&family=Raleway:wght@300&family=Roboto+Slab:wght@100&family=Roboto:wght@100;300;400;900&display=swap');
+ 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
 	
@@ -65,9 +65,9 @@
 
 	/* Home Section */
 	.header .logo{
-		font-size: 32px;padding: 0 4px; 
+		font-size: 38px;padding: 10px 4px; 
         transform: scaleY(1.5) scaleX(1.1);
-		line-height: 45px;
+		line-height: 40px;
      
 	}	
 	.text-slides{
