@@ -81,8 +81,8 @@ Home (Header) Section
     animation: fondo 3s;
     
        color: black;
-        text-shadow: 1px 1px 11px white,
-            -1px -1px 11px white;
+        text-shadow: 1px 1px 11px green,
+            -1px -1px 11px green;
         font-family: cursive; 
 }
 .header-text{

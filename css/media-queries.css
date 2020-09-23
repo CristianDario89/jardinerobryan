@@ -65,17 +65,15 @@
 
 	/* Home Section */
 	.header .logo{
-<<<<<<< HEAD
+ 
 		font-size: 52px;
 		line-height: 55px;
         color: chartreuse;
-        
-=======
+         
 		font-size: 32px;padding: 0 4px; 
         transform: scaleY(1.5) scaleX(1.1);
 		line-height: 25px;
-     
->>>>>>> gh-pages
+      
 	}	
 	.text-slides{
 		font-size: 24px;
