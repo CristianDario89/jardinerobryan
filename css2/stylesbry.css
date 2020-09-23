@@ -73,18 +73,18 @@
         padding:1px;
 }  
 .ul1 li{
-   color: chartreuse;font-size: 30px;
-     text-shadow: -2px -2px 2px black,
-        2px 2px 2px black ;   
+   color: black;font-size: 30px;
+     text-shadow: -2px -2px 2px green,
+        2px 2px 2px green ;   
     letter-spacing: 2px;
     animation: fondo2 7s;
     
 }
-.ul2 li{color: black;     text-shadow: -2px -2px 2px orange,
-        2px 2px 2px orange ;  
+.ul2 li{color: red;     text-shadow: -2px -2px 2px black,
+        2px 2px 2px black ;  
  border-radius: 5px;
-        margin-bottom: 2px;
-    transform: translateY(-10px) scale(1.2);
+        margin-bottom:6px;
+    transform:   scale(1.2);
      letter-spacing: 2px;
     font-size: 30px;
 } 
@@ -104,22 +104,21 @@
         font-size: 15px;
     }
 
-.header h6{
-    text-shadow: 1px 1px 1px red;
-    font-weight: 700; animation: fondo3 7s 11s;
-    
-}
+.header h6{ font-weight: 700; animation: fondo3 7s 11s;
+letter-spacing: 1.1px;}
+
 .wraparriba{
     display: flex;
     justify-content: center;
-     transform: translateY(-25px);
+     transform: translateY(-12px);
     
 }
  h4{
-     font-size:50px;font-family: cursive;
+     font-size:80px;font-family: cursive;
 	 animation: fondo3 7s 4s;
-      text-shadow: 2px 2px 1px black;
-     margin-top: 8px;
+      text-shadow: 2px 2px 1px black,
+          -2px -2px 1px black; 
+     margin-top: 15px;
 }
 /*----------------------------------*/
 @media only screen and (max-width: 867px) {
@@ -133,6 +132,10 @@
     border-radius: 5px;
         margin-bottom: 2px;padding:1px;
 } 
+    h4{
+     font-size:50px; margin-top: 20px;
+	 
+}
 .ul1{
   line-height: 35px;
     
@@ -153,7 +156,7 @@
 .wraparriba{
     display: flex;
     justify-content: center;
-     transform: translateY(-1px);
+     transform: translateY( 3px);
     
 }
 }
