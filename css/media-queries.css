@@ -65,9 +65,9 @@
 
 	/* Home Section */
 	.header .logo{
-		font-size: 32px;padding: 0 4px; 
+		font-size: 38px;padding: 10px 4px; 
         transform: scaleY(1.5) scaleX(1.1);
-		line-height: 25px;
+		line-height: 40px;
      
 	}	
 	.text-slides{
