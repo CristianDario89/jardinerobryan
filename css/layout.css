@@ -80,9 +80,9 @@ Home (Header) Section
 	margin-bottom: 11px; 
     animation: fondo 3s;
     
-       color: black;
-        text-shadow: 1px 1px 11px white,
-            -1px -1px 11px white;
+       color: chartreuse;
+        text-shadow: 1px 1px 1px black,
+            -1px -1px 1px black;
         font-family: cursive; 
 }
 .header-text{
